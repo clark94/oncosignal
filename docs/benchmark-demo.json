@@ -1,0 +1,98 @@
+{
+  "scope": "6 questions synthétiques du corpus fictif ; aucune généralisation clinique",
+  "cases": [
+    {
+      "query": "pembrolizumab",
+      "expected": [
+        "demo:trial01",
+        "demo:pub01"
+      ],
+      "retrieved": [
+        "demo:pub01",
+        "demo:trial01"
+      ],
+      "precision_at_2": 1.0,
+      "recall_at_2": 1.0,
+      "reciprocal_rank": 1.0,
+      "correct_abstention": null,
+      "latency_ms": 3.274
+    },
+    {
+      "query": "osimertinib",
+      "expected": [
+        "demo:trial02",
+        "demo:pub02"
+      ],
+      "retrieved": [
+        "demo:pub02",
+        "demo:trial02"
+      ],
+      "precision_at_2": 1.0,
+      "recall_at_2": 1.0,
+      "reciprocal_rank": 1.0,
+      "correct_abstention": null,
+      "latency_ms": 2.21
+    },
+    {
+      "query": "trastuzumab deruxtecan",
+      "expected": [
+        "demo:trial03",
+        "demo:pub03"
+      ],
+      "retrieved": [
+        "demo:pub03",
+        "demo:trial03"
+      ],
+      "precision_at_2": 1.0,
+      "recall_at_2": 1.0,
+      "reciprocal_rank": 1.0,
+      "correct_abstention": null,
+      "latency_ms": 2.117
+    },
+    {
+      "query": "nivolumab",
+      "expected": [
+        "demo:trial04",
+        "demo:pub04"
+      ],
+      "retrieved": [
+        "demo:pub04",
+        "demo:trial04"
+      ],
+      "precision_at_2": 1.0,
+      "recall_at_2": 1.0,
+      "reciprocal_rank": 1.0,
+      "correct_abstention": null,
+      "latency_ms": 2.14
+    },
+    {
+      "query": "Molecule-X",
+      "expected": [
+        "demo:trial05",
+        "demo:pub05"
+      ],
+      "retrieved": [
+        "demo:trial05",
+        "demo:pub05"
+      ],
+      "precision_at_2": 1.0,
+      "recall_at_2": 1.0,
+      "reciprocal_rank": 1.0,
+      "correct_abstention": null,
+      "latency_ms": 2.072
+    },
+    {
+      "query": "zzzzzznotinthecorpus",
+      "expected": [],
+      "retrieved": [],
+      "precision_at_2": null,
+      "recall_at_2": null,
+      "reciprocal_rank": null,
+      "correct_abstention": true,
+      "latency_ms": 2.623
+    }
+  ],
+  "semantic_model_tested": false,
+  "llm_cost": null,
+  "clinical_fidelity": null
+}

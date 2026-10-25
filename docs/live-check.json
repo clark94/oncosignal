@@ -1,0 +1,7 @@
+{
+  "status": "not_verified",
+  "error_type": "DNS resolution unavailable",
+  "clinicaltrials_live": false,
+  "pubmed_live": false,
+  "note": "Le r\u00e9seau de pr\u00e9paration ne r\u00e9sout pas clinicaltrials.gov. Connecteurs test\u00e9s avec r\u00e9ponses HTTP simul\u00e9es et fixtures fictives ; aucun r\u00e9sultat r\u00e9el inclus."
+}

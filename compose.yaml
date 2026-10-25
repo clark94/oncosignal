@@ -1,0 +1,19 @@
+services:
+  oncosignal:
+    build: .
+    ports:
+      - "127.0.0.1:8010:8010"
+    environment:
+      ONCO_ADMIN_TOKEN: ${ONCO_ADMIN_TOKEN:-}
+      ONCO_PRIVATE: ${ONCO_PRIVATE:-0}
+      NCBI_EMAIL: ${NCBI_EMAIL:-}
+      NCBI_API_KEY: ${NCBI_API_KEY:-}
+    volumes:
+      - research:/workspace
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+volumes:
+  research:

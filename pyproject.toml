@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oncosignal"
+version = "0.1.0"
+description = "Veille scientifique oncologique traçable : collecte, alignement, qualité, API et MCP"
+requires-python = ">=3.10"
+readme = "README.md"
+license = "MIT"
+dependencies = ["fastapi>=0.115,<1", "uvicorn>=0.30,<1", "httpx>=0.27,<1", "pydantic>=2.9,<3", "numpy>=1.26,<3", "scikit-learn>=1.5,<1.8", "defusedxml>=0.7,<1"]
+
+[project.optional-dependencies]
+mcp = ["mcp>=1.28,<2"]
+semantic = ["sentence-transformers>=3,<4"]
+dev = ["pytest>=8,<9"]
+
+[project.scripts]
+oncosignal = "oncosignal.cli:main"
+oncosignal-mcp = "oncosignal.mcp_server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+[tool.setuptools.package-data]
+oncosignal = ["static/*", "demo/*"]
+[tool.pytest.ini_options]
+testpaths = ["tests"]

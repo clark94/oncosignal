@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: oncosignal-demo
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health
+    envVars:
+      - key: ONCO_PRIVATE
+        value: "0"

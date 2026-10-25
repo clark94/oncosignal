@@ -1,0 +1,227 @@
+[
+  {
+    "source": "demo",
+    "demo": true,
+    "retrieved_at": "2026-10-25T00:00:00+00:00",
+    "updated": "2026-01-15",
+    "review": "pending",
+    "rights": "Corpus fictif fourni pour les tests du prototype. Aucune donnée clinique réelle.",
+    "id": "demo:trial01",
+    "source_id": "DEMO-T01",
+    "kind": "trial",
+    "title": "[FICTIF] Essai pédagogique pembrolizumab — melanoma",
+    "text": "DEMONSTRATION FICTIVE. Trial of pembrolizumab in melanoma. Identifiant simulé NCT99000001. La phase et le statut sont des exemples logiciels ; aucun résultat clinique, bénéfice ou risque ne peut en être déduit.",
+    "url": "https://example.invalid/trial/1",
+    "drugs": [
+      "pembrolizumab"
+    ],
+    "indications": [
+      "melanoma"
+    ],
+    "phase": "PHASE3",
+    "status": "RECRUITING",
+    "sponsor": "Sponsor fictif Alpha",
+    "nct_ids": [
+      "NCT99000001"
+    ]
+  },
+  {
+    "source": "demo",
+    "demo": true,
+    "retrieved_at": "2026-10-25T00:00:00+00:00",
+    "updated": "2026-01-15",
+    "review": "pending",
+    "rights": "Corpus fictif fourni pour les tests du prototype. Aucune donnée clinique réelle.",
+    "id": "demo:pub01",
+    "source_id": "DEMO-P01",
+    "kind": "publication",
+    "title": "[FICTIF] Notice de publication pédagogique — pembrolizumab",
+    "text": "DEMONSTRATION FICTIVE. Research notice mentioning pembrolizumab and melanoma. Référence explicite simulée : NCT99000001. Ce texte illustre la liaison de notices et ne rapporte aucune efficacité ni conclusion clinique.",
+    "url": "https://example.invalid/publication/1",
+    "drugs": [],
+    "indications": [],
+    "nct_ids": [
+      "NCT99000001"
+    ]
+  },
+  {
+    "source": "demo",
+    "demo": true,
+    "retrieved_at": "2026-10-25T00:00:00+00:00",
+    "updated": "2026-01-15",
+    "review": "pending",
+    "rights": "Corpus fictif fourni pour les tests du prototype. Aucune donnée clinique réelle.",
+    "id": "demo:trial02",
+    "source_id": "DEMO-T02",
+    "kind": "trial",
+    "title": "[FICTIF] Essai pédagogique osimertinib — non-small cell lung cancer",
+    "text": "DEMONSTRATION FICTIVE. Trial of osimertinib in non-small cell lung cancer. Identifiant simulé NCT99000002. La phase et le statut sont des exemples logiciels ; aucun résultat clinique, bénéfice ou risque ne peut en être déduit.",
+    "url": "https://example.invalid/trial/2",
+    "drugs": [
+      "osimertinib"
+    ],
+    "indications": [
+      "non-small cell lung cancer"
+    ],
+    "phase": "PHASE2",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "sponsor": "Sponsor fictif Beta",
+    "nct_ids": [
+      "NCT99000002"
+    ]
+  },
+  {
+    "source": "demo",
+    "demo": true,
+    "retrieved_at": "2026-10-25T00:00:00+00:00",
+    "updated": "2026-01-15",
+    "review": "pending",
+    "rights": "Corpus fictif fourni pour les tests du prototype. Aucune donnée clinique réelle.",
+    "id": "demo:pub02",
+    "source_id": "DEMO-P02",
+    "kind": "publication",
+    "title": "[FICTIF] Notice de publication pédagogique — osimertinib",
+    "text": "DEMONSTRATION FICTIVE. Research notice mentioning osimertinib and non-small cell lung cancer. Référence explicite simulée : NCT99000002. Ce texte illustre la liaison de notices et ne rapporte aucune efficacité ni conclusion clinique.",
+    "url": "https://example.invalid/publication/2",
+    "drugs": [],
+    "indications": [],
+    "nct_ids": [
+      "NCT99000002"
+    ]
+  },
+  {
+    "source": "demo",
+    "demo": true,
+    "retrieved_at": "2026-10-25T00:00:00+00:00",
+    "updated": "2026-01-15",
+    "review": "pending",
+    "rights": "Corpus fictif fourni pour les tests du prototype. Aucune donnée clinique réelle.",
+    "id": "demo:trial03",
+    "source_id": "DEMO-T03",
+    "kind": "trial",
+    "title": "[FICTIF] Essai pédagogique trastuzumab deruxtecan — breast cancer",
+    "text": "DEMONSTRATION FICTIVE. Trial of trastuzumab deruxtecan in breast cancer. Identifiant simulé NCT99000003. La phase et le statut sont des exemples logiciels ; aucun résultat clinique, bénéfice ou risque ne peut en être déduit.",
+    "url": "https://example.invalid/trial/3",
+    "drugs": [
+      "trastuzumab deruxtecan"
+    ],
+    "indications": [
+      "breast cancer"
+    ],
+    "phase": "PHASE3",
+    "status": "RECRUITING",
+    "sponsor": "Sponsor fictif Gamma",
+    "nct_ids": [
+      "NCT99000003"
+    ]
+  },
+  {
+    "source": "demo",
+    "demo": true,
+    "retrieved_at": "2026-10-25T00:00:00+00:00",
+    "updated": "2026-01-15",
+    "review": "pending",
+    "rights": "Corpus fictif fourni pour les tests du prototype. Aucune donnée clinique réelle.",
+    "id": "demo:pub03",
+    "source_id": "DEMO-P03",
+    "kind": "publication",
+    "title": "[FICTIF] Notice de publication pédagogique — trastuzumab deruxtecan",
+    "text": "DEMONSTRATION FICTIVE. Research notice mentioning trastuzumab deruxtecan and breast cancer. Référence explicite simulée : NCT99000003. Ce texte illustre la liaison de notices et ne rapporte aucune efficacité ni conclusion clinique.",
+    "url": "https://example.invalid/publication/3",
+    "drugs": [],
+    "indications": [],
+    "nct_ids": [
+      "NCT99000003"
+    ]
+  },
+  {
+    "source": "demo",
+    "demo": true,
+    "retrieved_at": "2026-10-25T00:00:00+00:00",
+    "updated": "2026-01-15",
+    "review": "pending",
+    "rights": "Corpus fictif fourni pour les tests du prototype. Aucune donnée clinique réelle.",
+    "id": "demo:trial04",
+    "source_id": "DEMO-T04",
+    "kind": "trial",
+    "title": "[FICTIF] Essai pédagogique nivolumab — melanoma",
+    "text": "DEMONSTRATION FICTIVE. Trial of nivolumab in melanoma. Identifiant simulé NCT99000004. La phase et le statut sont des exemples logiciels ; aucun résultat clinique, bénéfice ou risque ne peut en être déduit.",
+    "url": "https://example.invalid/trial/4",
+    "drugs": [
+      "nivolumab"
+    ],
+    "indications": [
+      "melanoma"
+    ],
+    "phase": "PHASE2",
+    "status": "COMPLETED",
+    "sponsor": "Sponsor fictif Delta",
+    "nct_ids": [
+      "NCT99000004"
+    ]
+  },
+  {
+    "source": "demo",
+    "demo": true,
+    "retrieved_at": "2026-10-25T00:00:00+00:00",
+    "updated": "2026-01-15",
+    "review": "pending",
+    "rights": "Corpus fictif fourni pour les tests du prototype. Aucune donnée clinique réelle.",
+    "id": "demo:pub04",
+    "source_id": "DEMO-P04",
+    "kind": "publication",
+    "title": "[FICTIF] Notice de publication pédagogique — nivolumab",
+    "text": "DEMONSTRATION FICTIVE. Research notice mentioning nivolumab and melanoma. Référence explicite simulée : NCT99000004. Ce texte illustre la liaison de notices et ne rapporte aucune efficacité ni conclusion clinique.",
+    "url": "https://example.invalid/publication/4",
+    "drugs": [],
+    "indications": [],
+    "nct_ids": [
+      "NCT99000004"
+    ]
+  },
+  {
+    "source": "demo",
+    "demo": true,
+    "retrieved_at": "2026-10-25T00:00:00+00:00",
+    "updated": "2026-01-15",
+    "review": "pending",
+    "rights": "Corpus fictif fourni pour les tests du prototype. Aucune donnée clinique réelle.",
+    "id": "demo:trial05",
+    "source_id": "DEMO-T05",
+    "kind": "trial",
+    "title": "[FICTIF] Essai pédagogique Molecule-X fictive — solid tumors",
+    "text": "DEMONSTRATION FICTIVE. Trial of Molecule-X fictive in solid tumors. Identifiant simulé NCT99000005. La phase et le statut sont des exemples logiciels ; aucun résultat clinique, bénéfice ou risque ne peut en être déduit.",
+    "url": "https://example.invalid/trial/5",
+    "drugs": [
+      "Molecule-X fictive"
+    ],
+    "indications": [
+      "solid tumors"
+    ],
+    "phase": "",
+    "status": "UNKNOWN",
+    "sponsor": "",
+    "nct_ids": [
+      "NCT99000005"
+    ]
+  },
+  {
+    "source": "demo",
+    "demo": true,
+    "retrieved_at": "2026-10-25T00:00:00+00:00",
+    "updated": "2026-01-15",
+    "review": "pending",
+    "rights": "Corpus fictif fourni pour les tests du prototype. Aucune donnée clinique réelle.",
+    "id": "demo:pub05",
+    "source_id": "DEMO-P05",
+    "kind": "publication",
+    "title": "[FICTIF] Notice de publication pédagogique — Molecule-X fictive",
+    "text": "DEMONSTRATION FICTIVE. Research notice mentioning Molecule-X fictive and solid tumors. Référence explicite simulée : NCT99000005. Ce texte illustre la liaison de notices et ne rapporte aucune efficacité ni conclusion clinique.",
+    "url": "https://example.invalid/publication/5",
+    "drugs": [],
+    "indications": [],
+    "nct_ids": [
+      "NCT99000005"
+    ]
+  }
+]

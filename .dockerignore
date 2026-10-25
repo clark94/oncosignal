@@ -1,0 +1,7 @@
+.git
+.venv
+workspace
+__pycache__
+*.egg-info
+.env
+.env.*
